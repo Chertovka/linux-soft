@@ -4,8 +4,6 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
     die();
 }
 
-// $APPLICATION->AddChainItem($arResult['NAME']);
-
 ?>
 <?print_r($arResult['SRC_MIN']);?>
     <div class="linux-soft">

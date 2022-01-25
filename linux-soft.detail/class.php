@@ -98,29 +98,9 @@ class LinuxSoftDetail extends CBitrixComponent
                 $item = $item->collectValues();
                 unset($item);
             }
-            
-            //if (in_array($name, ['QUESTION_TEXT', 'GALLERY_TEXT', 'NEWS_TEXT'])) {
-            //    $field['VALUE'] = unserialize($field['VALUE']);
-            //}
+
         }
         unset($field);
-    
-        //$file        = $arItem->get('LOGOTIP')->get('FILE');
-        //$resize = CFile::ResizeImageGet(
-        //    $file->collectValues(),
-        //    ['width' => 100, 'height' => 50],
-        //    BX_RESIZE_IMAGE_EXACT,
-        //    false
-        //);
-    
-       // $filePath = '/upload/' . $file->getSubdir() . '/' . $file->getFileName();
-        
-        //if (isset($filePath)) {
-        //    $arItem[] = [
-       //         'SRC'          => $filePath,
-       //         'SRC_MIN'      => $resize['src'],
-       //     ];
-       // }
         
         return $arItem;
     }

@@ -63,7 +63,6 @@ class LinuxSoftList extends CBitrixComponent
         if (!$result) {
             $result = [];
         }
-        //dd($resultArray);
         return $resultArray;
     }
     

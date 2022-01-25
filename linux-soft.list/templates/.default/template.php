@@ -6,12 +6,6 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 $APPLICATION->SetTitle('LinuxSoft');
 ?>
 
-<?php
-// echo "<pre>";
-// print_r($arResult);
-// echo "</pre>";
-// ?>
-
 <?php if (!empty($arResult['ITEMS'])): ?>
 <link rel="stylesheet" href="<?=CSS_URL?>">
 <div class="linux-soft">
